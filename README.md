@@ -6,6 +6,14 @@ Clone the repository
 
     git clone https://github.com/hasanugr/news-listAndDetail.git
     
+Change to the directory
+    
+    cd news-listAndDetail
+    
+Install npm packages
+
+    npm install
+    
 RUN!
 
     npm start
