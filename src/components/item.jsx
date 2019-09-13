@@ -18,7 +18,7 @@ class Item extends React.Component {
       {
         this.state.news.map(newItem => 
           <div key={newItem.id} className="item">
-            <Link to={"/detail?id="+newItem.id} >
+            <Link to={`/detail?id=${newItem.id}`} >
               <div className="item-imageField">
                 <img src={newItem.image} />
               </div>
